@@ -1,0 +1,23 @@
+{
+    "name": "friends-pagination",
+    "version": "1.0.0",
+    "description": "Pagination",
+    "main": "server.js",
+    "scripts": {
+        "test": "test",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itsandromeda/Friends-pagination.git"
+    },
+    "author": "Annia J. Flores <@ItsAndromeda>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/itsandromeda/Friends-pagination/issues"
+    },
+    "homepage": "https://github.com/itsandromeda/Friends-pagination#readme",
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
