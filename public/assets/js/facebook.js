@@ -1,8 +1,10 @@
-/*global window, FB, document*/
+/*global window, FB, document, console, statusChangeCallback*/
+/*eslint-disable no-console*/
+
 window.fbAsyncInit = function () {
     'use strict';
     FB.init({
-        appId: '1066153896821007',
+        appId: '1158890930922880',
         autoLogAppEvents: true,
         xfbml: true,
         version: 'v2.10'
@@ -26,6 +28,7 @@ window.fbAsyncInit = function () {
 }(document, 'script', 'facebook-jssdk'));
 
 function statusChangeCallback(response) {
+    'use strict';
     if (response.status === 'connected') {
         console.log('Logged in and authenticated');
     } else {
